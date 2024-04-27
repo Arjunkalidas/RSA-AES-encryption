@@ -1,0 +1,33 @@
+{
+    "name": "RSA-AES-Encryption",
+    "version": "1.0.0",
+    "description": "This project is a simple example of how to encrypt and decrypt data using RSA and AES algorithms.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Arjunkalidas/RSA-AES-encryption"
+    },
+    "keywords": [
+      "RSA",
+      "AES",
+      "Encryption",
+      "Decryption"
+    ],
+    "author": "Jay Kal<askjaykal@mail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "https://github.com/Arjunkalidas/RSA-AES-encryption/blob/main/README.md",
+    "dependencies": {
+      "node-forge": "^0.10.0",
+      "winston": "^3.3.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
