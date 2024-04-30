@@ -1,9 +1,10 @@
 'use strict'
 
-exports.RSADecrypt = class {
-  constructor(publicKey, privateKey) {
-    this.publicKey = publicKey
-    this.privateKey = privateKey
-  }
+const logger = require('../logger/logger');
+const forge = require('node-forge');
+
+exports.RSADecrypt = (data) => {
+  
+  return "";
 }
 
