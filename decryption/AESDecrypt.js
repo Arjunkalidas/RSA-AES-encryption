@@ -1,9 +1,10 @@
 'use strict'
 
+const logger = require('../logger/logger');
+const forge = require('node-forge');
 
-exports.AESDecrypt = class {
-  constructor(key) {
-    this.key = key
-  }
+exports.AESDecrypt = (data) => {
+  
+  return "";
 }
 
