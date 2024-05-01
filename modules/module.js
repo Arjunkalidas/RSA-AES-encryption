@@ -1,3 +1,5 @@
+'use strict'
+
 /*
     This class is for defining common modules for the entire project in one place.
 */

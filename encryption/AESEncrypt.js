@@ -1,8 +1,10 @@
 'use strict'
 
-exports.AESEncrypt = class {
-  constructor(key) {
-    this.key = key
-  }
+const logger = require('../logger/logger');
+const forge = require('node-forge');
+
+exports.AESEncrypt = () => {
+  
+  return "";
 }
 
